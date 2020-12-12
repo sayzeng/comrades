@@ -74,6 +74,7 @@ for pair in range(1, pairCount + 1):
             server.send_message(msg)
             print('\n\n Email sent! \n\n\n')
         else:
+            print("You seem unsure. Let's start over.")
             break
     elif send_email == 'stop':
         break
